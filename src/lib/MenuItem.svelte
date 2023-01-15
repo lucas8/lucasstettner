@@ -41,11 +41,13 @@
     height: 100%;
     min-width: 1px;
     background: rgba(255, 255, 255, 0.5);
+    box-shadow: none;
   }
 
   li:hover .bar {
     background-color: #fff;
-    transition: all ease 200ms;
+    transition: all ease-in 200ms;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
   }
 
   h2 {
