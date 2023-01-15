@@ -1,0 +1,32 @@
+:root {
+  font-family: 'Haas Grot Text Web', Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #fff;
+  background-color: #000000;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+  place-items: center;
+}
+
+#app {
+  /* this should place the menu about 25% from the top  */
+  height: 50vh;
+  max-width: 1280px;
+  padding: 2rem;
+  text-align: center;
+}
