@@ -1,12 +1,19 @@
 :root {
-  font-family: 'Haas Grot Text Web', Inter, Avenir, Helvetica, Arial, sans-serif;
+  --color-primary: #101010;
+  --text-body: 1.125rem;
+  --text-header: 1.65rem;
+
+  --font-body: 'PP Neue Montreal', Avenir, Helvetica, Arial, sans-serif;
+  --font-header: 'PP NeueBit', serif;
+
+  font-family: var(--font-body);
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
 
   color-scheme: light dark;
   color: #fff;
-  background-color: #000000;
+  background-color: #101010;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -15,18 +22,50 @@
   -webkit-text-size-adjust: 100%;
 }
 
+::selection {
+  background: rgba(var(--color-primary), 0.5);
+}
+
 body {
   margin: 0;
   display: flex;
   min-width: 320px;
   min-height: 100vh;
-  place-items: center;
 }
 
 #app {
   /* this should place the menu about 25% from the top  */
-  height: 50vh;
-  max-width: 1280px;
-  padding: 2rem;
-  text-align: center;
+  margin: 0 auto;
+  max-width: 38rem;
+  width: 100%;
+  padding: 1.5rem;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  transition: color ease 100ms;
+  position: relative;
+}
+
+a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+a::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  background: #ffffff;
+  transform: translateY(1px);
+  transition: all ease 100ms;
+  opacity: 1;
+}
+
+a:hover::before {
+  transform: translateY(3px);
+  opacity: 0;
 }
