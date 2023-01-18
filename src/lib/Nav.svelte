@@ -1,10 +1,5 @@
 <nav>
   <h1>lucas stettner</h1>
-  <ul>
-    <li>about</li>
-    <li>work</li>
-    <li>contact</li>
-  </ul>
 </nav>
 
 <style>
@@ -17,13 +12,13 @@
     font-family: var(--font-header);
     font-weight: 700;
   }
-  ul {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-  }
   h1 {
     background: rgb(var(--color-primary));
     padding: 0px 4px;
+    transition: all ease 150ms;
+    cursor: pointer;
+  }
+  h1:hover {
+    transform: rotate(5deg);
   }
 </style>

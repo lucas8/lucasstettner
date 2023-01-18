@@ -69,3 +69,30 @@ a:hover::before {
   transform: translateY(3px);
   opacity: 0;
 }
+
+@font-face {
+  font-family: 'PP Neue Montreal';
+  src: url('/fonts/PPNeueMontreal-Bold.woff2') format('woff2'),
+    url('/fonts/PPNeueMontreal-Bold.woff') format('woff');
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'PP Neue Montreal';
+  src: url('/fonts/PPNeueMontreal-Medium.woff2') format('woff2'),
+    url('/fonts/PPNeueMontreal-Medium.woff') format('woff');
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'PP NeueBit';
+  src: url('/fonts/PPNeueBit-Bold.woff2') format('woff2'),
+    url('/fonts/PPNeueBit-Bold.woff') format('woff');
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 700;
+}

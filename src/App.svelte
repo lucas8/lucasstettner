@@ -3,8 +3,11 @@
   import { fade } from 'svelte/transition'
   import Item from './lib/Item.svelte'
   import Nav from './lib/Nav.svelte'
+  import primerCover from './assets/primer-cover.png'
 
-  const COLORS = ['255, 0, 153', '143, 69, 0', '79, 184, 30']
+  // TODO: load fonts
+  // TODO: do a pass on these again
+  const COLORS = ['255, 0, 153', '143, 69, 0', '79, 184, 30', '181, 185, 0']
 
   onMount(() => {
     // set a random primary color
@@ -29,10 +32,11 @@
       and dashboard.
     </p>
   </section>
-  <section id="work">
+  <section id="work" in:fade={{ delay: 200 }}>
     <h2>Work</h2>
     <ul>
       <Item
+        src={primerCover}
         title="Primer"
         description="Building magical learing experiences for students"
       />
@@ -44,7 +48,7 @@
 
 <style>
   main {
-    padding: 128px 0;
+    padding-top: 128px;
   }
   p {
     font-size: var(--text-body);
