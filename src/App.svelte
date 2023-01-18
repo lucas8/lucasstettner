@@ -9,12 +9,37 @@
   // TODO: do a pass on these again
   const COLORS = ['255, 0, 153', '143, 69, 0', '79, 184, 30', '181, 185, 0']
 
+  const setFavicon = (color: string) => {
+    if (typeof window === 'undefined') return
+
+    const path = `<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_681_79)">
+<rect width="128" height="128" rx="40" fill="rgb(${color}"/>
+</g>
+<defs>
+<clipPath id="clip0_681_79">
+<rect width="128" height="128" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+`
+
+    const link = window.document.createElement('link')
+
+    link.type = 'image/svg+xml'
+    link.rel = 'shortcut icon'
+    link.href = path
+
+    window.document.getElementsByTagName('head')[0].appendChild(link)
+
+    console.log(link)
+  }
+
   onMount(() => {
+    const color = COLORS[Math.floor(Math.random() * COLORS.length)]
     // set a random primary color
-    window.document.body.style.setProperty(
-      '--color-primary',
-      COLORS[Math.floor(Math.random() * COLORS.length)],
-    )
+    window.document.body.style.setProperty('--color-primary', color)
+    setFavicon(color)
   })
 </script>
 
