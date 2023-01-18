@@ -27,7 +27,4 @@
   div:hover {
     transform: rotate(5deg);
   }
-  h1 {
-    margin-bottom: -2px;
-  }
 </style>
