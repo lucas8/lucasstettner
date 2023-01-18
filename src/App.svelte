@@ -9,7 +9,7 @@
   import snippet from './assets/snippet.png'
 
   // TODO: do a pass on colors these again
-  const COLORS = ['255, 0, 153', '143, 69, 0', '79, 184, 30', '181, 185, 0']
+  const COLORS = ['255, 0, 153', '143, 69, 0', '79, 184, 30', '216, 199, 44']
 
   const setFavicon = (color: string) => {
     if (typeof window === 'undefined') return
