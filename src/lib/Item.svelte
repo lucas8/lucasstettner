@@ -68,7 +68,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: center;
+    object-position: top;
   }
   div {
     transition: background-color ease 200ms;
@@ -79,6 +79,7 @@
     width: 100%;
     padding: 0 8px;
     z-index: 1;
+    backdrop-filter: blur(8px);
   }
   div.isHovering {
     background-color: rgba(0, 0, 0, 0.85);

@@ -3,7 +3,10 @@
   import { fade } from 'svelte/transition'
   import Item from './lib/Item.svelte'
   import Nav from './lib/Nav.svelte'
-  import primerCover from './assets/primer-cover.png'
+  import fontastique from './assets/fontastique.png'
+  import patch from './assets/patch.png'
+  import tunedin from './assets/tunedin.png'
+  import snippet from './assets/snippet.png'
 
   // TODO: do a pass on colors these again
   const COLORS = ['255, 0, 153', '143, 69, 0', '79, 184, 30', '181, 185, 0']
@@ -52,14 +55,39 @@
     <h2>Projects</h2>
     <ul>
       <Item
-        src={primerCover}
-        title="Primer"
-        description="Building magical learing experiences for students"
-        href="https://primer.com"
+        src={fontastique}
+        title="Fontastique"
+        description="Opinionated font app built for designers"
+        href="https://github.com/lucas8/fontastique"
       />
-      <Item />
-      <Item />
+      <Item
+        src={patch}
+        title="Patch"
+        description="Collaborative tool for creating modular synthesizers"
+        href="https://github.com/lucas8/fontastique"
+      />
+      <Item
+        src={tunedin}
+        title="Tunedin"
+        description="Multiplayer spotify rooms for friends"
+        href="https://github.com/lucas8/tunedin"
+      />
+      <Item
+        src={snippet}
+        title="Snippet"
+        description="A small application for sharing collaborative code snippets"
+        href="https://github.com/lucas8/snippet"
+      />
     </ul>
+  </section>
+  <section>
+    <h2>Contact</h2>
+    <p style="margin-top: 0">
+      You can usually find me on <a href="https://twitter.com/lucasstettner"
+        >twitter</a
+      >, <a href="https://github.com/lucas8">github</a>, or reach out to
+      <a href="mailto:lucas.stettner@gmail.com">lucas.stettner@gmail.com</a>.
+    </p>
   </section>
 </main>
 
