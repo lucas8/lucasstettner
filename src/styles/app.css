@@ -13,7 +13,6 @@
 
   color-scheme: light dark;
   color: #fff;
-  background-color: #101010;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -27,6 +26,7 @@
 }
 
 body {
+  background-color: rgba(var(--color-primary));
   margin: 0;
   display: flex;
   min-width: 320px;
@@ -34,12 +34,10 @@ body {
 }
 
 #app {
+  background-color: #101010;
   /* this should place the menu about 25% from the top  */
-  margin: 0 auto;
-  max-width: 38rem;
   width: 100%;
   padding: 1.5rem;
-  text-align: left;
 }
 
 a {

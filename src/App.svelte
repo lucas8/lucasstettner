@@ -12,17 +12,7 @@
   const setFavicon = (color: string) => {
     if (typeof window === 'undefined') return
 
-    const path = `<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_681_79)">
-<rect width="128" height="128" rx="40" fill="rgb(${color}"/>
-</g>
-<defs>
-<clipPath id="clip0_681_79">
-<rect width="128" height="128" fill="white"/>
-</clipPath>
-</defs>
-</svg>
-`
+    const path = `data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22256%22 height=%22256%22 viewBox=%220 0 100 100%22><rect fill=%22rgb(${color})%22 width=%22256%22 height=%22256%22 /></svg>`
 
     const link = window.document.createElement('link')
 
@@ -43,8 +33,8 @@
   })
 </script>
 
-<Nav />
 <main>
+  <Nav />
   <section id="about" in:fade>
     <p>
       Crafting interfaces. Building polished software and web experiences.
@@ -73,7 +63,8 @@
 
 <style>
   main {
-    padding-top: 128px;
+    max-width: 38rem;
+    margin: 0 auto;
   }
   p {
     font-size: var(--text-body);
@@ -82,7 +73,8 @@
     font-weight: 500;
   }
   section {
-    margin-bottom: 128px;
+    padding-top: 128px;
+    /* margin-bottom: 128px; */
   }
   h2 {
     font-family: var(--font-header);
