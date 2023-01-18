@@ -21,8 +21,6 @@
     link.href = path
 
     window.document.getElementsByTagName('head')[0].appendChild(link)
-
-    console.log(link)
   }
 
   onMount(() => {
@@ -66,6 +64,7 @@
   main {
     max-width: 38rem;
     margin: 0 auto;
+    padding-bottom: 128px;
   }
   p {
     font-size: var(--text-body);
@@ -75,7 +74,6 @@
   }
   section {
     padding-top: 128px;
-    /* margin-bottom: 128px; */
   }
   h2 {
     font-family: var(--font-header);
