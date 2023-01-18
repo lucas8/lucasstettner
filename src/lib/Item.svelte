@@ -56,7 +56,6 @@
     height: 100%;
     object-fit: cover;
     object-position: center;
-    z-index: -1;
   }
   div {
     transition: background-color ease 200ms;
@@ -66,6 +65,7 @@
     min-height: 40px;
     width: 100%;
     padding: 0 8px;
+    z-index: 1;
   }
   div.isHovering {
     background-color: rgba(0, 0, 0, 0.85);
