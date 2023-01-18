@@ -17,6 +17,7 @@
     padding: 0px 4px;
     transition: all ease 150ms;
     cursor: pointer;
+    line-height: 100%;
   }
   h1:hover {
     transform: rotate(5deg);
