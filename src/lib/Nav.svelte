@@ -19,12 +19,14 @@
     align-items: center;
     justify-content: center;
     height: 30px;
-    background: rgb(var(--color-primary));
-    padding: 0px 4px;
-    transition: all ease 150ms;
     cursor: pointer;
   }
-  div:hover {
+  h1 {
+    transition: all ease 150ms;
+    padding: 0px 4px;
+    background: rgb(var(--color-primary));
+  }
+  div:hover h1 {
     transform: rotate(5deg);
   }
 </style>

@@ -5,8 +5,7 @@
   import Nav from './lib/Nav.svelte'
   import primerCover from './assets/primer-cover.png'
 
-  // TODO: load fonts
-  // TODO: do a pass on these again
+  // TODO: do a pass on colors these again
   const COLORS = ['255, 0, 153', '143, 69, 0', '79, 184, 30', '181, 185, 0']
 
   const setFavicon = (color: string) => {
@@ -35,18 +34,22 @@
   <Nav />
   <section id="about" in:fade>
     <p>
-      Crafting interfaces. Building polished software and web experiences.
-      Experimenting with magical details in user interfaces. Webmaster at <a
-        href="/">Linear</a
-      >.
+      Design Engineer. Building collaborative web experiences and designing
+      interfaces for remarkable products.
     </p>
-    <p style="margin-top: 36px">
-      In the past I’ve developed the <a href="/">Vercel</a> design system, website,
-      and dashboard.
+    <p>
+      Previously, I worked on an education system for the future at <a
+        href="https://primer.com">Primer</a
+      >, was a mentor at
+      <a href="https://www.nanohackers.org/">Nano Hacker Academy</a> and helped
+      build the
+      <a href="https://beamcenter.org/beamprojectnyc2019"
+        >world's largest flip books</a
+      >.
     </p>
   </section>
   <section id="work" in:fade={{ delay: 200 }}>
-    <h2>Work</h2>
+    <h2>Projects</h2>
     <ul>
       <Item
         src={primerCover}
@@ -71,6 +74,10 @@
     color: #fff;
     line-height: 1.875rem;
     font-weight: 500;
+    letter-spacing: 0.02em;
+  }
+  p:not(:first-child) {
+    margin-top: 36px;
   }
   section {
     padding-top: 128px;
@@ -81,32 +88,18 @@
     font-weight: 700;
     margin-bottom: 1.125rem;
   }
-
   a {
     text-decoration: none;
     color: #fff;
     transition: color ease 100ms;
     position: relative;
+    background-image: linear-gradient(#ffffff50, #ffffff50);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 1.5px;
   }
-
   a:hover {
     color: rgba(255, 255, 255, 0.5);
-  }
-
-  a::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 1px;
-    bottom: 0;
-    background: #ffffff;
-    transform: translateY(1px);
-    transition: all ease 100ms;
-    opacity: 1;
-  }
-
-  a:hover::before {
-    transform: translateY(3px);
-    opacity: 0;
+    background-size: 0% 1px;
   }
 </style>

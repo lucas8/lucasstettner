@@ -97,4 +97,9 @@
   li:not(:last-child) {
     border-bottom-width: 0px;
   }
+  @media only screen and (max-width: 600px) {
+    .description {
+      display: none;
+    }
+  }
 </style>
