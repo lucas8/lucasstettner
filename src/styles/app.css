@@ -40,34 +40,6 @@ body {
   padding: 1.5rem;
 }
 
-a {
-  text-decoration: none;
-  color: #fff;
-  transition: color ease 100ms;
-  position: relative;
-}
-
-a:hover {
-  color: rgba(255, 255, 255, 0.5);
-}
-
-a::before {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 1px;
-  bottom: 0;
-  background: #ffffff;
-  transform: translateY(1px);
-  transition: all ease 100ms;
-  opacity: 1;
-}
-
-a:hover::before {
-  transform: translateY(3px);
-  opacity: 0;
-}
-
 @font-face {
   font-family: 'PP Neue Montreal';
   src: url('/fonts/PPNeueMontreal-Bold.woff2') format('woff2'),

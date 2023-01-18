@@ -54,6 +54,7 @@
         src={primerCover}
         title="Primer"
         description="Building magical learing experiences for students"
+        href="https://primer.com"
       />
       <Item />
       <Item />
@@ -81,5 +82,33 @@
     font-size: var(--text-header);
     font-weight: 700;
     margin-bottom: 1.125rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: #fff;
+    transition: color ease 100ms;
+    position: relative;
+  }
+
+  a:hover {
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    background: #ffffff;
+    transform: translateY(1px);
+    transition: all ease 100ms;
+    opacity: 1;
+  }
+
+  a:hover::before {
+    transform: translateY(3px);
+    opacity: 0;
   }
 </style>

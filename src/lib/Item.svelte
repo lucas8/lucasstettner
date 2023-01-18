@@ -4,6 +4,7 @@
   import LinkArrow from './LinkArrow.svelte'
 
   export let src: string = ''
+  export let href = '/'
   export let title: string = 'Title'
   export let description: string = 'Description'
 
@@ -21,22 +22,25 @@
   }
 </script>
 
+<!-- svelte-ignore a11y-click-events-have-key-events -->
 <li
   style:--height="{$height}px"
   on:mouseenter={handleMouseEnter}
   on:mouseleave={handleMouseLeave}
 >
-  {#if isHovering}
-    <img {src} alt="background" transition:fade />
-  {/if}
-  <div class:isHovering>
-    <span class="title"
-      >{title}
-      <span class="description"> — {description}</span></span
-    >
+  <a {href}>
+    {#if isHovering}
+      <img {src} alt="background" transition:fade />
+    {/if}
+    <div class:isHovering>
+      <span class="title"
+        >{title}
+        <span class="description"> — {description}</span></span
+      >
 
-    <LinkArrow delay={400} {isHovering} />
-  </div>
+      <LinkArrow delay={400} {isHovering} />
+    </div></a
+  >
 </li>
 
 <style>
@@ -47,6 +51,15 @@
   }
   .description {
     color: #ffffff80;
+  }
+  a {
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    color: #fff;
   }
   img {
     position: absolute;
@@ -80,9 +93,6 @@
     border-style: solid;
     border-color: #ffffff50;
     list-style: none;
-    display: flex;
-    align-items: flex-end;
-    position: relative;
   }
   li:not(:last-child) {
     border-bottom-width: 0px;
