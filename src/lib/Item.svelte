@@ -82,8 +82,7 @@
     backdrop-filter: blur(8px);
   }
   div.isHovering {
-    background-color: rgba(0, 0, 0, 0.85);
-    /* border-top: 1px solid #ffffff50; */
+    background-color: rgba(16, 16, 16, 0.85);
   }
   li {
     min-height: 40px;
