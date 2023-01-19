@@ -64,7 +64,7 @@
         src={patch}
         title="Patch"
         description="Collaborative tool for creating modular synthesizers"
-        href="https://github.com/lucas8/fontastique"
+        href="https://github.com/lucas8/patch"
       />
       <Item
         src={tunedin}
