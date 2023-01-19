@@ -47,7 +47,7 @@
       <a href="https://www.nanohackers.org/">Nano Hacker Academy</a> and helped
       build the
       <a href="https://beamcenter.org/beamprojectnyc2019"
-        >world's largest flip books</a
+        >world's largest flipbooks</a
       >.
     </p>
   </section>
