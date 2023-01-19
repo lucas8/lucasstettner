@@ -41,7 +41,7 @@
       interfaces for remarkable products.
     </p>
     <p>
-      Previously, I worked on an education system for the future at <a
+      Previously, I've worked on the future of our education system at <a
         href="https://primer.com">Primer</a
       >, was a mentor at
       <a href="https://www.nanohackers.org/">Nano Hacker Academy</a> and helped
