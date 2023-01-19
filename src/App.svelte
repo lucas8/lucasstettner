@@ -9,7 +9,7 @@
   import snippet from './assets/snippet.png'
 
   // TODO: do a pass on colors these again
-  const COLORS = ['255, 0, 153', '143, 69, 0', '79, 184, 30', '216, 199, 44']
+  const COLORS = ['255, 0, 153', '143, 69, 0', '79, 184, 30']
 
   const setFavicon = (color: string) => {
     if (typeof window === 'undefined') return
@@ -35,7 +35,7 @@
 
 <main>
   <Nav />
-  <section id="about" in:fade>
+  <section in:fade>
     <p>
       Design Engineer. Building collaborative web experiences and designing
       interfaces for remarkable products.
@@ -51,7 +51,7 @@
       >.
     </p>
   </section>
-  <section id="work" in:fade={{ delay: 200 }}>
+  <section in:fade={{ delay: 200 }}>
     <h2>Projects</h2>
     <ul>
       <Item
@@ -80,11 +80,10 @@
       />
     </ul>
   </section>
-  <section>
+  <section in:fade={{ delay: 200 }}>
     <h2>Contact</h2>
     <p style="margin-top: 0">
-      You can usually find me on <a href="https://twitter.com/lucasstettner"
-        >twitter</a
+      You can find me on <a href="https://twitter.com/lucasstettner">twitter</a
       >, <a href="https://github.com/lucas8">github</a>, or reach out to
       <a href="mailto:lucas.stettner@gmail.com">lucas.stettner@gmail.com</a>.
     </p>
