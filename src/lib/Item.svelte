@@ -83,7 +83,7 @@
   }
   div.isHovering {
     background-color: rgba(0, 0, 0, 0.85);
-    border-top: 1px solid #ffffff50;
+    /* border-top: 1px solid #ffffff50; */
   }
   li {
     min-height: 40px;
