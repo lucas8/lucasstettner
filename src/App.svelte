@@ -37,7 +37,7 @@
   <Nav />
   <section in:fade>
     <p>
-      Design Engineer. Building collaborative web experiences and designing
+      Design Engineer at <a href="https://ocho.com">Ocho</a>. Building collaborative web experiences and designing
       interfaces for remarkable products.
     </p>
     <p>
