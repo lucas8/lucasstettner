@@ -27,7 +27,6 @@
 
   onMount(() => {
     const color = COLORS[Math.floor(Math.random() * COLORS.length)]
-    // set a random primary color
     window.document.body.style.setProperty('--color-primary', color)
     setFavicon(color)
   })
