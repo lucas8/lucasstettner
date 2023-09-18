@@ -36,7 +36,7 @@
   <Nav />
   <section in:fade>
     <p>
-      Design Engineer at <a href="https://ocho.com">Ocho</a>.
+      Design Engineer at <a href="https://ocho.com">Ocho</a>. Building <a href="https://makeshift.so">Makeshift</a>.
     </p>
     <p>
       Previously, I worked on education systems at <a
