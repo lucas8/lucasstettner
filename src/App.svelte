@@ -36,10 +36,10 @@
   <Nav />
   <section in:fade>
     <p>
-      Design Engineer at <a href="https://ocho.com">Ocho</a>. Building <a href="https://makeshift.so">Makeshift</a>.
+      Design Engineer at <a href="https://ocho.com">Ocho</a>. Moonlighting on <a href="https://makeshift.so">Makeshift</a>, a set of tools for electron applications.
     </p>
     <p>
-      Previously, I worked on education systems at <a
+      Previously, I worked on engineering education systems at <a
         href="https://primer.com">Primer</a
       >, was a mentor at
       <a href="https://www.nanohackers.org/">Nano Hacker Academy</a> and helped
