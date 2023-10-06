@@ -36,7 +36,7 @@
   <Nav />
   <section in:fade>
     <p>
-      Design Engineer at <a href="https://ocho.com">Ocho</a>. Moonlighting on <a href="https://makeshift.so">Makeshift</a>, a set of tools for electron applications.
+      Design Engineer at <a href="https://ocho.com">Ocho</a>.
     </p>
     <p>
       Previously, I worked on engineering education systems at <a
