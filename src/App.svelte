@@ -32,11 +32,18 @@
   })
 </script>
 
+<svelte:head>
+    <link rel="preload" as="image" href={fontastique} />
+    <link rel="preload" as="image" href={patch} />
+    <link rel="preload" as="image" href={tunedin} />
+    <link rel="preload" as="image" href={snippet} />
+</svelte:head>
+
 <main>
   <Nav />
   <section in:fade>
     <p>
-      Design Engineer at <a href="https://ocho.com">Ocho</a>.
+      Design Engineer at <a href="https://carrywealth.com">Carry</a>.
     </p>
     <p>
       Previously, I worked on engineering education systems at <a
