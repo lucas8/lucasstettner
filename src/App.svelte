@@ -43,7 +43,7 @@
   <Nav />
   <section in:fade>
     <p>
-      Design Engineer at <a href="https://carrywealth.com">Carry</a>.
+      Design Engineer at <a href="https://carrymoney.com">Carry</a>.
     </p>
     <p>
       Previously, I worked on engineering education systems at <a
