@@ -88,7 +88,7 @@
   <section in:fade={{ delay: 200 }}>
     <h2>Contact</h2>
     <p style="margin-top: 0">
-      You can find me on <a href="https://twitter.com/lucasstettner">twitter</a
+      You can find me on <a href="https://twitter.com/lucasstettner">X</a
       >, <a href="https://github.com/lucas8">github</a>, or reach out to
       <a href="mailto:lucas.stettner@gmail.com">lucas.stettner@gmail.com</a>.
     </p>
