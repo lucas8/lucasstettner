@@ -49,7 +49,7 @@
       Previously, I worked on engineering education systems at <a
         href="https://primer.com">Primer</a
       >, was a mentor at
-      <a href="https://www.nanohackers.org/">Nano Hacker Academy</a> and helped
+      <a href="https://www.instagram.com/nanohackers">Nano Hacker Academy</a> and helped
       build the
       <a href="https://beamcenter.org/beamprojectnyc2019"
         >world's largest flipbooks</a
