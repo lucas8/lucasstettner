@@ -7,6 +7,7 @@
   import patch from './assets/patch.png'
   import tunedin from './assets/tunedin.png'
   import snippet from './assets/snippet.png'
+  import seesaw from './assets/seesaw.png'
 
   // TODO: do a pass on colors these again
   const COLORS = ['255, 0, 153', '143, 69, 0', '79, 184, 30']
@@ -37,6 +38,7 @@
     <link rel="preload" as="image" href={patch} />
     <link rel="preload" as="image" href={tunedin} />
     <link rel="preload" as="image" href={snippet} />
+    <link rel="preload" as="image" href={seesaw} />
 </svelte:head>
 
 <main>
@@ -59,6 +61,12 @@
   <section in:fade={{ delay: 200 }}>
     <h2>Projects</h2>
     <ul>
+      <Item
+        src={seesaw}
+        title="Seesaw"
+        description="Daily design inspiration catalog"
+        href="https://seesaw.website"
+      />
       <Item
         src={fontastique}
         title="Fontastique"
