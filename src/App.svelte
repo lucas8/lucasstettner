@@ -53,7 +53,7 @@
       >, was a mentor at
       <a href="https://www.instagram.com/nanohackers">Nano Hacker Academy</a> and helped
       build the
-      <a href="https://beamcenter.org/beamprojectnyc2019"
+      <a href="https://www.beamcenter.org/projects/flipnyc"
         >world's largest flipbooks</a
       >.
     </p>
