@@ -71,7 +71,7 @@
       <Item
         src={showsinnyc}
         title="Showsin.nyc"
-        description="Show aggregator for venues across NYC"
+        description="Live music aggregator for venues across NYC"
         href="https://showsin.nyc"
       />
       <Item
