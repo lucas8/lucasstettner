@@ -8,6 +8,7 @@
   import tunedin from './assets/tunedin.png'
   import snippet from './assets/snippet.png'
   import seesaw from './assets/seesaw.png'
+  import showsinnyc from './assets/showsinnyc.png'
 
   // TODO: do a pass on colors these again
   const COLORS = ['255, 0, 153', '143, 69, 0', '79, 184, 30']
@@ -66,6 +67,12 @@
         title="Seesaw"
         description="Daily design inspiration catalog"
         href="https://seesaw.website"
+      />
+      <Item
+        src={showsinnyc}
+        title="Showsin.nyc"
+        description="Show aggregator for venues across NYC"
+        href="https://showsin.nyc"
       />
       <Item
         src={fontastique}
