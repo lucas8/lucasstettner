@@ -46,10 +46,7 @@
   <Nav />
   <section in:fade>
     <p>
-      Design Engineer at <a href="https://carrymoney.com">Carry</a>.
-    </p>
-    <p>
-      Previously, I worked on engineering education systems at <a
+      Previously, I worked on tax-advantaged retirement accounts at <a href="https://carry.com">Carry</a>, digital-first education experiences at <a
         href="https://primer.com">Primer</a
       >, was a mentor at
       <a href="https://www.instagram.com/nanohackers">Nano Hacker Academy</a> and helped
