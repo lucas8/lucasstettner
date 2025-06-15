@@ -49,8 +49,7 @@
     <p>
       Previously, I worked on tax-advantaged retirement accounts at <a href="https://carry.com">Carry</a>, digital-first education experiences at <a
         href="https://primer.com">Primer</a
-      >, was a mentor at
-      <a href="https://www.instagram.com/nanohackers">Nano Hacker Academy</a> and helped
+      > and helped
       build the
       <a href="https://www.beamcenter.org/projects/flipnyc"
         >world's largest flipbooks</a
