@@ -45,6 +45,7 @@
 <main>
   <Nav />
   <section in:fade>
+    <p>Engineer at <a href="https://a24films.com">A24</a>.</p>
     <p>
       Previously, I worked on tax-advantaged retirement accounts at <a href="https://carry.com">Carry</a>, digital-first education experiences at <a
         href="https://primer.com">Primer</a
